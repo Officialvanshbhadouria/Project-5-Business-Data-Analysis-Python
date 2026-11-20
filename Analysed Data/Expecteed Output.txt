@@ -1,0 +1,83 @@
+DATASET OVERVIEW
+Rows and columns: (600, 13)
+
+First five rows:
+   Order_ID Order_Date Customer_ID Region        Category  ...  Discount_Percent      Sales      Cost    Profit Payment_Method
+0  ORD-0381 2025-01-02   CUST-0074  North     Electronics  ...                 5  165104.83  96536.58  68568.25            UPI
+1  ORD-0104 2025-01-03   CUST-0030  South     Electronics  ...                 0   86632.60  59134.69  27497.91            UPI
+2  ORD-0575 2025-01-03   CUST-0029  North  Home & Kitchen  ...                10   20832.77  16652.34   4180.43    Credit Card
+3  ORD-0465 2025-01-03   CUST-0007   West           Books  ...                10    5989.32   4553.70   1435.62     Debit Card
+4  ORD-0303 2025-01-04   CUST-0204   West           Books  ...                10    2057.43   1287.61    769.82            UPI
+
+[5 rows x 13 columns]
+
+Missing values in each column:
+Order_ID            0
+Order_Date          0
+Customer_ID         0
+Region              0
+Category            0
+Product             0
+Quantity            0
+Unit_Price          0
+Discount_Percent    0
+Sales               0
+Cost                0
+Profit              0
+Payment_Method      0
+dtype: int64
+
+Duplicate rows: 0
+
+KEY NUMBERS
+Total sales: ₹23,256,014.26
+Total profit: ₹7,246,600.24
+Number of orders: 600
+Units sold: 1774
+Average order value: ₹38,760.02
+Profit margin: 31.16%
+
+SALES BY CATEGORY
+      Category       Sales
+   Electronics 13800291.56
+     Furniture  5566884.60
+Home & Kitchen  2425725.79
+      Clothing  1273284.46
+         Books   189827.85
+
+SALES BY REGION
+ Region      Sales
+Central 5224029.05
+   East 5119769.24
+   West 5107908.33
+  South 4316605.11
+  North 3487702.53
+
+TOP 10 PRODUCTS BY SALES
+     Product      Sales
+  Headphones 3818023.07
+  Smartwatch 3005155.23
+  Smartphone 2491633.94
+      Laptop 2356362.37
+      Tablet 2129116.95
+  Study Desk 1397180.73
+        Sofa 1251365.96
+Dining Table 1148921.78
+   Bookshelf 1001955.98
+Office Chair  767460.15
+
+SALES BY PAYMENT METHOD
+Payment_Method      Sales
+           UPI 8676751.10
+   Credit Card 6763903.22
+    Debit Card 3402162.30
+   Net Banking 2289560.76
+          Cash 2123636.88
+
+QUICK OBSERVATIONS
+Top category by sales: Electronics
+Top region by sales: Central
+Top product by sales: Headphones
+Top month by sales: 2025-10
+
+Analysis finished.
